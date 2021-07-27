@@ -1,7 +1,12 @@
-
+body {
+    
+    font-family: 'Roboto', sans-serif;  /* настройки отсюда: https://fonts.google.com/specimen/Roboto?subset=cyrillic&query=roboto*/
+    font-size: 14px; /*размер шрифта*/
+    color: 0A143A; /*цвет текста*/
+}
 .header {
-    max-width: 1146px;
-    margin:auto;
+    max-width: 1146px; /* максимальная ширина элемента*/
+    margin: auto;
 }
 .navbar {
     display: flex; /* делаем гибкий блок */
@@ -10,14 +15,14 @@
 }
 .navbar-menu {
     margin-right: auto; /*автоматический отступ справа */
-    
 .menu {
-    
     list-style: none; /* отключаем точки в списке */
     margin: 0;  /* обнуляем отступы */
     padding-left: 22px;/*внутьренний отступ слева */
-    display: flex;/*внутренний отступ справа */
-}
+    padding-right: 22px; /* внутренний отступ справа */
+    display: flex;
+} 
+
 /* Для всех пунктов меню кроме последнегго */
 .menu-item:not(:last-child) {
     margin-right: 14px; /* отступ справа */
