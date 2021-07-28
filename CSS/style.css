@@ -13,3 +13,16 @@ body {
     align-items: center; /* выравниваем по вертикали */
     justify-content: space-between; /*разбросать элементы по краям */
 }
+.navbar-menu {
+    margin-right: auto; /* автоматическй отступ справа */
+}
+.menu {
+    list-style: none;
+    margin: 0; 
+    padding-left: 22px;
+    padding-right: 22px;
+    display: flex;
+}
+.menu-item:not(:last-child) {
+    margin-right: 14px;
+}
