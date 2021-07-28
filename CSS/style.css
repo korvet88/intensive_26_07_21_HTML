@@ -6,7 +6,7 @@ body {
 }
 .header {
     max-width: 1146px; /* максимальная ширина элемента*/
-    margin: auto;
+    margin: auto; /* автоматическое выравнивание по середине*/
 }
 .navbar {
     display: flex; /* делаем гибкий блок */
@@ -14,16 +14,3 @@ body {
     justify-content: space-between; /*разбросать элементы по краям */
 }
 .navbar-menu {
-    margin-right: auto; /*автоматический отступ справа */
-.menu {
-    list-style: none; /* отключаем точки в списке */
-    margin: 0;  /* обнуляем отступы */
-    padding-left: 22px;/*внутьренний отступ слева */
-    padding-right: 22px; /* внутренний отступ справа */
-    display: flex;
-} 
-
-/* Для всех пунктов меню кроме последнегго */
-.menu-item:not(:last-child) {
-    margin-right: 14px; /* отступ справа */
-}
