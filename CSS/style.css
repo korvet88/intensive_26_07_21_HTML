@@ -4,11 +4,14 @@ body {
     font-size: 14px; /* размер шрифта */
     color: #0A143A; /* цвет текста */
 }
-.header {
+.conteiner {
     max-width: 1146px; /* максимальная ширина элемента*/
     margin: auto; /* автоматическое выравнивание по середине*/
+}
+.header {
     padding-top: 30px;
-
+    padding-bottom: 30px;
+    margin-bottom: 12px;
 }
 .navbar {
     display: flex; /* делаем гибкий блок */
@@ -73,4 +76,15 @@ body {
 }
 .search-button-text {
     margin-left: 5px;
+}
+.page-content {
+    display: grid; /* обращение к документу как к сетке*/
+    grid-template-columns: 9fr 3fr; /* выделение двух фракций по 9 и 3 фрейма соответственно*/
+    grid-column-gap: 30px; /* отступ между фракциями*/
+}
+.card-image {
+    border-radius: 10px;
+    width: 264px;
+    height: 178px;
+    object-fit: cover;
 }
