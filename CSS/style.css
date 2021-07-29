@@ -91,10 +91,12 @@ body {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .card {
     margin-bottom: 20px;
+}
+.card:not(:nth-child(3n)) {
+    margin-right: 20px;
 }
 .card-title {
     font-size: 16px;
